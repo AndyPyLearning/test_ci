@@ -33,7 +33,7 @@ jobs:
           script: |
             cd /data/test_ci
             echo 'source code'
-            git pull https://github.com/AndyPyLearning/test_ci.git
+            git pull
             git checkout $branches
             python3 -m venv venv
             source ./venv/bin/activate
